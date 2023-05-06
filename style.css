@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    background-color: rgb(51, 50, 50);
+    overflow: hidden;
+}
+
+button {
+    background: linear-gradient(180deg, #fd0d0d, #f77f7b);
+}
+
+button:hover {
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+    color: #fff !important;
+}
+
+.logo img {
+    margin: 1rem .5rem;
+    width: 200px;
+    height: 100px;
+}
+
+.main_btn button {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    width: 200px;
+    padding: 18px 0;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #fd0d0d, #f77f7b);
+    transition: all 0.8s ease;
+}
+
+.main_btn button:hover {
+    transform: rotateY(35deg);
+    animation: all 2s infinite;
+    animation-direction: alternate;
+
+}
+
+.modal-content {
+    border-radius: 20px;
+    margin-top: 5rem;
+}
+
+.btn-close {
+    --bs-btn-close-focus-shadow: none;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body button {
+    font-size: 1.2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-footer button {
+    font-size: 1.2rem;
+}
+
+.modal-footer button {
+    color: #fff;
+    background: linear-gradient(180deg, #141414, #948f8f);
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    .logo {
+        justify-content: center;
+    }
+
+    .logo img {
+        margin: 1rem .5rem;
+        width: 150px;
+        height: 75px;
+    }
+
+    .modal-body button {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}
