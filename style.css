@@ -7,35 +7,26 @@
 html,
 body {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: rgb(51, 50, 50);
     overflow: hidden;
 }
 
-button {
-    background: linear-gradient(180deg, #fd0d0d, #f77f7b);
-}
 
-button:hover {
-    transition: 0.2s ease-in-out;
-    opacity: 0.8;
-    color: #fff !important;
-}
 
 .logo img {
-    margin: 1rem .5rem;
     width: 200px;
-    height: 100px;
+    height: 200px;
 }
 
 .main_btn button {
+    margin-top: 120px;
     color: #fff;
     font-size: 1.2em;
     font-weight: 700;
     width: 200px;
     padding: 18px 0;
     border-radius: 8px;
-    background: linear-gradient(180deg, #fd0d0d, #f77f7b);
     transition: all 0.8s ease;
 }
 
@@ -47,8 +38,7 @@ button:hover {
 }
 
 .modal-content {
-    border-radius: 20px;
-    margin-top: 5rem;
+    --bs-modal-border-radius: none;
 }
 
 .btn-close {
@@ -57,25 +47,7 @@ button:hover {
 
 .modal-header {
     border-bottom: none;
-}
-
-.modal-body button {
-    font-size: 1.2rem;
-    width: 100%;
-    margin-bottom: 1rem;
-}
-
-.modal-footer {
-    border-top: none;
-}
-
-.modal-footer button {
-    font-size: 1.2rem;
-}
-
-.modal-footer button {
-    color: #fff;
-    background: linear-gradient(180deg, #141414, #948f8f);
+    background-color: #fff;
 }
 
 /* Responsive */
