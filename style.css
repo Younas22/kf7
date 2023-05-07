@@ -45,10 +45,26 @@ body {
     --bs-btn-close-focus-shadow: none;
 }
 
-.modal-header {
-    border-bottom: none;
-    background-color: #fff;
+.modal-body {
+    padding: 0;
+    position: relative;
 }
+
+.btn_styling {
+    background-color: black;
+}
+
+.img_styling img {
+    padding: 60px;
+}
+
+.modal_close {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+}
+
+
 
 /* Responsive */
 @media only screen and (max-width: 600px) {
@@ -57,9 +73,8 @@ body {
     }
 
     .logo img {
-        margin: 1rem .5rem;
-        width: 150px;
-        height: 75px;
+        width: 200px;
+        height: 200px;
     }
 
     .modal-body button {
